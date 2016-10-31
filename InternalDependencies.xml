@@ -3,92 +3,47 @@
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/controller/Controller.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/view/View.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Game.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Thread.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/InterruptedException.class" />
   </file>
-  <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Optional.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Enum.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Comparable.class" />
-  </file>
+  <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/Dealer.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Player.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/function/BiPredicate.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/function/BiFunction.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/HitStrategy.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/RulesFactory.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/WinRule.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Deck.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/NewGameStrategy.java" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/Deck.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Collections.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/LinkedList.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/List.class" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/Game.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Player.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Runnable.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/RulesFactory.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Dealer.java" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/Player.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/stream/Stream.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Optional.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Collection.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/LinkedList.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Runnable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/stream/IntStream.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/List.class" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/AmericanNewGameStrategy.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Runnable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/NewGameStrategy.java" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/BasicHitStrategy.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Integer.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/HitStrategy.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/HitStrategy.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Integer.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/function/BiPredicate.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/FunctionalInterface.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/InternationalNewGameStrategy.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Runnable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/NewGameStrategy.java" />
   </file>
-  <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/NewGameStrategy.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Runnable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/FunctionalInterface.class" />
-  </file>
+  <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/NewGameStrategy.java" />
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/PlayerLosesOnEqualRule.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Boolean.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Integer.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/WinRule.java" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/PlayerWinsOnEqualRule.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Boolean.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Integer.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/WinRule.java" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/RulesFactory.java">
@@ -100,63 +55,24 @@
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/NewGameStrategy.java" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/Soft17HitStrategy.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Integer.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/stream/Stream.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Spliterator.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Optional.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/stream/StreamSupport.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/HitStrategy.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Override.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
   </file>
-  <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/WinRule.java">
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Integer.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Boolean.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/function/BiFunction.class" />
-  </file>
+  <file path="$PROJECT_DIR$/blackjack_java/blackjack/model/rules/WinRule.java" />
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/Program.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/controller/Controller.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/view/View.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Game.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Locale.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/view/SimpleView.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/String.class" />
   </file>
-  <file path="$PROJECT_DIR$/blackjack_java/blackjack/view/res/view.properties" />
-  <file path="$PROJECT_DIR$/blackjack_java/blackjack/view/res/view_sv.properties" />
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/view/SimpleView.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Optional.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/text/MessageFormat.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Set.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/ResourceBundle.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/io/IOException.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Enum.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Throwable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/nio/charset/Charset.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/ClassLoader.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Object.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Map.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/io/InputStream.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/view/View.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Class.class" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Game.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/PropertyResourceBundle.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/LinkedHashMap.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Locale.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/util/Scanner.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/io/InputStreamReader.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/System.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/String.class" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/io/PrintStream.class" />
   </file>
   <file path="$PROJECT_DIR$/blackjack_java/blackjack/view/View.java">
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Card.java" />
     <dependency path="$PROJECT_DIR$/blackjack_java/blackjack/model/Game.java" />
-    <dependency path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/java/lang/Iterable.class" />
   </file>
-  <file path="$PROJECT_DIR$/blackjack_java/README.md" />
 </root>
 
