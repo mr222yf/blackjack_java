@@ -1,0 +1,6 @@
+Changes after Peer Review
+
+- Soft17 hit rule fixed so that the Dealer does not hit if the sum of cards excluding the ace exceeds 6.
+- Language changed back to English.
+- Shortened the pause after new card is dealt to 2 seconds.
+- Bug when loading resource files fixed.
