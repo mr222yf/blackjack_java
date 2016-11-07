@@ -12,7 +12,11 @@ class Soft17HitStrategy implements HitStrategy {
             return true;
         } else if(dealerScore == HIT_LIMIT) {
             return StreamSupport.stream(cards.spliterator(), false)
-                    .anyMatch(card -> card.getValue().get() == Card.Value.Ace);
+                    .anyMatch(card -> card.getValue().get() == Card.Value.Ace)
+                    && StreamSupport.stream(cards.spliterator(), false)
+                    .filter(card -> card.getValue().get() != Card.Value.Ace)
+                    .mapToInt(card -> card.getValue().get().getScore())
+                    .sum() <= 6;
         } else {
             return false;
         }

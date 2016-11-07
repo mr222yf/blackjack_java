@@ -16,7 +16,6 @@ public class Controller {
 
     public boolean play() {
         if (game.isGameOver()) {
-            //displayHands();
             view.displayGameOver(game.isDealerWinner());
         }
 
@@ -40,7 +39,7 @@ public class Controller {
     
     private void displayHands() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             // Do nothing
         }

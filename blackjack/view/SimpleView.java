@@ -15,7 +15,7 @@ public class SimpleView implements View {
 
     public SimpleView(Locale locale) {
         Locale.setDefault(locale);
-        this.viewStringsBundle = getResourceBundleAsUTF8("blackjack.view.res.view", locale);
+        this.viewStringsBundle = getResourceBundle("blackjack.view.res.view", locale);
     }
 
     public void displayWelcomeMessage() {
@@ -73,7 +73,7 @@ public class SimpleView implements View {
         }
     }
 
-    private ResourceBundle getResourceBundleAsUTF8(String baseName, Locale locale){
+    private ResourceBundle getResourceBundle(String baseName, Locale locale){
         ResourceBundle.Control control = ResourceBundle.Control.getControl(ResourceBundle.Control.FORMAT_DEFAULT);
 
         String bundleName = control.toBundleName(baseName, locale);
@@ -83,10 +83,8 @@ public class SimpleView implements View {
 
         try {
             return new PropertyResourceBundle(new InputStreamReader(utf8in, Charset.defaultCharset()));
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.exit(1);
+        } catch (IOException | NullPointerException e) {
+            return ResourceBundle.getBundle("blackjack.view.res.view", locale);
         }
-        return null;
     }
 }
