@@ -39,7 +39,7 @@ class Dealer extends Player {
     }
 
     public boolean isDealerWinner() {
-        return winRule.apply(calcScore(), player.calcScore());
+        return winRule.didDealerWin(calcScore(), player.calcScore(), MAX_SCORE);
     }
 
     public boolean isGameOver() {
@@ -57,7 +57,8 @@ class Dealer extends Player {
     private void showHand() {
         if (hasHiddenCard()) {
             getHand().forEach(Card::show);
-            listeners.forEach(Runnable::run);
+            setChanged();
+            notifyObservers();
         }
     }
 }

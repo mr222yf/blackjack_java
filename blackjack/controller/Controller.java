@@ -3,14 +3,17 @@ package blackjack.controller;
 import blackjack.model.Game;
 import blackjack.view.View;
 
-public class Controller {
+import java.util.Observable;
+import java.util.Observer;
+
+public class Controller implements Observer {
     private final Game game;
     private final View view;
 
     public Controller(Game game, View view) {
         this.game = game;
         this.view = view;
-        game.addNewCardListener(this::displayHands);
+        game.addObserver(this);
         view.displayWelcomeMessage();
     }
 
@@ -36,8 +39,18 @@ public class Controller {
         }
         return true;
     }
-    
-    private void displayHands() {
+
+    /**
+     * This method is called whenever the observed object is changed. An
+     * application calls an <tt>Observable</tt> object's
+     * <code>notifyObservers</code> method to have all the object's
+     * observers notified of the change.
+     *
+     * @param o   the observable object.
+     * @param arg an argument passed to the <code>notifyObservers</code>
+     */
+    @Override
+    public void update(Observable o, Object arg) {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {

@@ -2,6 +2,8 @@ package blackjack.model;
 
 import blackjack.model.rules.RulesFactory;
 
+import java.util.Observer;
+
 public class Game {
     private final Dealer dealer;
     private final Player player;
@@ -49,8 +51,8 @@ public class Game {
         return player.calcScore();
     }
 
-    public void addNewCardListener(Runnable newCardListener){
-        dealer.addListener(newCardListener);
-        player.addListener(newCardListener);
+    public void addObserver(Observer observer){
+        dealer.addObserver(observer);
+        player.addObserver(observer);
     }
 }

@@ -1,5 +1,5 @@
 package blackjack.model.rules;
 
-import java.util.function.BiFunction;
-
-public interface WinRule extends BiFunction<Integer, Integer, Boolean> {}
+public interface WinRule {
+    boolean didDealerWin(int dealerScore, int playerScore, final int MAX_SCORE);
+}

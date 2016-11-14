@@ -4,3 +4,9 @@ Changes after Peer Review
 - Language changed back to English.
 - Shortened the pause after new card is dealt to 2 seconds.
 - Bug when loading resource files fixed.
+
+Changes after teacher feedback
+
+- Observer pattern fix (Controller implements Observer, Player extends Observable).
+- MAX_SCORE constant duplication removed (now only in Player)
+- 

@@ -2,8 +2,7 @@ package blackjack.model.rules;
 
 class PlayerWinsOnEqualRule implements WinRule {
     @Override
-    public Boolean apply(Integer dealerScore, Integer playerScore) {
-        final int MAX_SCORE = 21;
+    public boolean didDealerWin(int dealerScore, int playerScore, final int MAX_SCORE) {
         if (playerScore > MAX_SCORE) {
             return true;
         } else if (dealerScore > MAX_SCORE) {
